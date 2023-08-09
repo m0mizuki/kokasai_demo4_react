@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './components/home/Home';
+import Hello from './components/hello/Hello';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/home"><Home /></Route>
+          <Route exact path="/hello"><Hello /></Route>
         </Switch>
       </BrowserRouter>
 
@@ -26,11 +26,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <h2><a href="/hello">hello</a></h2>
+
       </header>
 
-      <p><a href="/home">ホームへ</a></p>
-
-      <Home />
     </div>
   );
 }

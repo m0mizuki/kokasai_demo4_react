@@ -1,4 +1,4 @@
-function Home() {
+function Hello() {
   return (
     <div>
         <h1>こんにちは</h1>
@@ -6,4 +6,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hello;
